@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/action_bar_metadata" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.instagram.android.widget.CaptionAutoCompleteTextView android:textSize="@dimen/metadata_text_size" android:gravity="top" android:id="@id/captionTextView" android:background="@drawable/input_single_default" android:paddingLeft="79.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/enter_caption" android:lines="3" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="actionDone" style="@style/IgAutoCompleteTextView" />
+                <FrameLayout android:layout_gravity="left|center" android:layout_width="@dimen/metadata_imageview_size" android:layout_height="@dimen/metadata_imageview_size" android:layout_marginLeft="3.0dip">
+                    <com.instagram.android.widget.ConstrainedImageView android:id="@id/metadata_imageview" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholder="@color/gray" />
+                    <ImageView android:id="@id/post_overlay" android:background="@drawable/upload_thumbnail_overlay_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+            </FrameLayout>
+            <LinearLayout android:id="@id/metadata_row_people" android:background="@drawable/input_single" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <CheckBox android:id="@id/tag_people_checkbox" android:background="@drawable/upload_glyph_people" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+                <TextView android:textSize="@dimen/metadata_text_size" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upload_glyph_margin" android:text="@string/add_people" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/metadata_text_size" android:textColor="@color/metadata_gray" android:id="@id/metadata_textview_people" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/metadata_row_add_to_your_your_photomap" android:background="@drawable/input_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/form_padding">
+                <TextView android:textSize="@dimen/metadata_text_size" android:id="@id/metadata_textview_photomap" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/add_to_photo_map" android:layout_weight="1.0" />
+                <CheckBox android:id="@id/geotagCheckBox" android:background="@drawable/checkbox" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/metadata_row_location" android:background="@drawable/input_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/nameLocationCheckBox" android:background="@drawable/upload_glyph_location" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+                <TextView android:textSize="@dimen/metadata_text_size" android:id="@id/geotagTextView" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/name_this_location" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/metadata_text_size" android:textColor="@color/metadata_gray" android:id="@id/geotagPickLocationHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/optional" />
+            </LinearLayout>
+            <com.instagram.android.widget.FreightSanBoldSCTextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff555555" android:layout_gravity="left" android:id="@id/share_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/form_padding" android:text="@string/share" android:shadowColor="#ffe7e7e7" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="0.1" android:textAllCaps="true" />
+            <com.instagram.android.creation.widget.ShareTable android:id="@id/share_table" android:paddingTop="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

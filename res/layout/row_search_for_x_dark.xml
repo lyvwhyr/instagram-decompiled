@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_search_highlight" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/row_search_for_x_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="61.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/location_search_dark" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/row_search_for_x_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/row_search_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_bar_glyph_refresh_spinner" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/row_search_for_x_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/row_search_divider" />
+        <include layout="@layout/row_search_highlight" />
+    </LinearLayout>
+</RelativeLayout>

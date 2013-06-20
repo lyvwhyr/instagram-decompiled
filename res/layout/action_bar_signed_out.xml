@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/action_bar" android:background="@drawable/action_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <ImageView android:layout_gravity="center" android:id="@id/action_bar_button_back" android:background="@drawable/action_bar_dark_left_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_bar_glyph_back" />
+        <com.instagram.android.widget.FreightSanBoldSCTextView android:textSize="@dimen/action_bar_title" android:textColor="@color/action_bar_title_textview_dark" android:layout_gravity="center" android:id="@id/action_bar_textview_title" android:paddingLeft="@dimen/action_bar_title_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title" android:shadowColor="@color/action_bar_title_textview_shadow_dark" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="0.1" android:layout_weight="0.0" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/action_bar_textview_custom_title_container" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/cell_divider" android:background="@color/people_tagging_cell_divider" style="@style/row_divider"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

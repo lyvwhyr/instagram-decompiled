@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s วินาทีที่แล้ว</item>
+        <item quantity="one">%s วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s นาทีที่แล้ว</item>
+        <item quantity="one">%s นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s ชั่วโมงที่แล้ว</item>
+        <item quantity="one">%s ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s วันที่แล้ว</item>
+        <item quantity="one">%s วันที่แล้ว</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s สัปดาห์ที่แล้ว</item>
+        <item quantity="one">%s สัปดาห์ที่แล้ว</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s โพสต์</item>
+        <item quantity="one">%s โพสต์</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/metadata_dark_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar_people_tagging" />
+    <com.instagram.android.people.widget.PhotoScrollView android:id="@id/photo_scroll_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:id="@id/people_tag_landscape_photo_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.instagram.android.widget.ShortestDimensionConstrainedFrameLayout android:layout_gravity="center" android:id="@id/image_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.instagram.android.mediacache.IgImageView android:layout_gravity="center" android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.instagram.android.people.widget.PeopleTagsInteractiveLayout android:layout_gravity="center" android:id="@id/people_tagging_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.instagram.android.widget.ShortestDimensionConstrainedFrameLayout>
+            <TextView android:textSize="18.0sp" android:textColor="@color/metadata_text" android:gravity="center" android:id="@id/tags_help_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/people_tagging_tap_to_add" android:freezesText="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.instagram.android.people.widget.PhotoScrollView>
+</LinearLayout>

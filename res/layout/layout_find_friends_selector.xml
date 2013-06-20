@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/facebook" />
+        <ToggleButton android:layout_gravity="right|center" android:id="@id/toggle_facebook" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_address_book_for_friends" />
+        <ToggleButton android:layout_gravity="right|center" android:id="@id/toggle_address_book" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <Button android:layout_gravity="center" android:id="@id/reset_facebook_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="Debug: Facebook Logout" />
+</LinearLayout>

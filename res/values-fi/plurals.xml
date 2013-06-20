@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s sekuntia sitten</item>
+        <item quantity="one">%s sekunti sitten</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minuuttia sitten</item>
+        <item quantity="one">%s minuutti sitten</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s tuntia sitten</item>
+        <item quantity="one">%s tunti sitten</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s päivää sitten</item>
+        <item quantity="one">%s päivä sitten</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s viikkoa sitten</item>
+        <item quantity="one">%s viikko sitten</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s julkaisua</item>
+        <item quantity="one">%s julkaisua</item>
+    </plurals>
+</resources>

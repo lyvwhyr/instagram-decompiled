@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.widget.SearchEditText android:textColor="@color/black" android:id="@id/row_search_edit_text" android:background="@drawable/input_standalone_default" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:singleLine="true" android:freezesText="true" android:drawableRight="@drawable/ic_clear_holo_light" android:inputType="textAutoComplete" android:imeOptions="actionSearch"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:background="@color/row_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

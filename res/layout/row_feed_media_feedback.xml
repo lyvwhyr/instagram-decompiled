@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/row_feed_photo_likes_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <ImageView android:id="@id/row_feed_photo_textview_likes_glyph" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stream_photo_activity_glyph_likes" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textColorLink="@color/link_color" android:id="@id/row_feed_photo_textview_likes" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/row_feed_photo_textview_likes_glyph" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/row_feed_photo_comments_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <ImageView android:id="@id/row_feed_photo_textview_comments_glyph" android:paddingTop="2.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stream_photo_activity_glyph_comments" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textColor="@color/black" android:textColorLink="@color/link_color" android:id="@id/row_feed_photo_textview_comments" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/row_feed_photo_textview_comments_glyph" android:lineSpacingMultiplier="1.2" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/row_feed_photo_view_group_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="15.0dip">
+        <com.instagram.android.widget.LikeToggle android:gravity="center" android:id="@id/row_feed_photo_toggle_button_like" android:background="@drawable/stream_photo_activity_button_like" android:padding="0.0px" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0px" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/row_feed_photo_button_comment" android:background="@drawable/stream_photo_activity_button_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/row_feed_photo_toggle_button_like" android:layout_centerVertical="true" />
+        <com.instagram.android.widget.MediaOptionsButton android:id="@id/row_feed_photo_button_options" android:background="@drawable/stream_photo_actions_button_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

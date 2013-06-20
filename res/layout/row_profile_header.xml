@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row_profile_header" android:background="@color/alt_list_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/row_friend_request_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/row_friend_request_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/profile_container" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="88.0dip">
+            <FrameLayout android:layout_gravity="center" android:id="@id/row_profile_header_avatar_container" android:layout_width="0.0dip" android:layout_height="88.0dip" android:layout_weight="1.0">
+                <com.instagram.android.mediacache.IgImageView android:layout_gravity="center" android:id="@id/row_profile_header_imageview" android:layout_width="68.0dip" android:layout_height="68.0dip" app:placeholder="@color/gray" xmlns:app="http://schemas.android.com/apk/res-auto" />
+                <View android:layout_gravity="center" android:background="@drawable/avatar_overlay" android:layout_width="68.0dip" android:layout_height="68.0dip" />
+                <View android:layout_gravity="right" android:id="@id/row_profile_header_avatar_divider" android:background="#ffcccccc" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="88.0dip" android:layout_weight="3.0">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="1.0">
+                    <FrameLayout android:id="@id/row_profile_header_container_photos" style="@style/ProfileScoreboardButton">
+                        <TextView android:layout_gravity="top|center" android:id="@id/row_profile_header_textview_photos_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="24" style="@style/IgProfileScoreboardCount" />
+                        <TextView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/posts" style="@style/IgProfileScoreboardLabel" />
+                    </FrameLayout>
+                    <View android:background="#ffcccccc" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                    <FrameLayout android:id="@id/row_profile_header_container_followers" style="@style/ProfileScoreboardButton">
+                        <TextView android:layout_gravity="top|center" android:id="@id/row_profile_header_textview_followers_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="24" style="@style/IgProfileScoreboardCount" />
+                        <TextView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/followers" style="@style/IgProfileScoreboardLabel" />
+                    </FrameLayout>
+                    <View android:background="#ffcccccc" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                    <FrameLayout android:id="@id/row_profile_header_container_following" style="@style/ProfileScoreboardButton">
+                        <TextView android:layout_gravity="top|center" android:id="@id/row_profile_header_textview_following_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="130" style="@style/IgProfileScoreboardCount" />
+                        <TextView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/following" style="@style/IgProfileScoreboardLabel" />
+                    </FrameLayout>
+                </LinearLayout>
+                <View android:background="@drawable/edusheet_item_separator" android:layout_width="fill_parent" android:layout_height="@dimen/profile_bio_separator" />
+                <com.instagram.android.widget.FollowButton android:gravity="center" android:layout_gravity="center" android:id="@id/row_profile_header_button_follow" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_margin="5.0dip" style="@style/IgFollowButtonLargeStyle" />
+                <TextView android:gravity="left|center" android:id="@id/row_profile_header_edit_profile" android:background="@drawable/button_profile" android:paddingLeft="10.0dip" android:paddingRight="2.0dip" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="43.0dip" android:text="@string/edit_your_profile" android:drawableRight="@drawable/list_chevron" style="@style/IgProfileButtonText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/row_profile_header_textview_biography_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+            <View android:background="@drawable/edusheet_item_separator" android:layout_width="fill_parent" android:layout_height="@dimen/profile_bio_separator" android:layout_marginBottom="7.5dip" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                <TextView android:layout_gravity="left" android:id="@id/row_profile_header_textview_fullname" android:paddingLeft="10.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" style="@style/ProfileFullName" />
+                <com.instagram.android.widget.FreightSanBoldSCTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/row_profile_header_textview_verified" android:background="@drawable/bg_verified" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:text="@string/verified" android:shadowColor="#ffbbbbbb" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="0.1" />
+            </LinearLayout>
+            <TextView android:textColor="@color/dark_gray" android:layout_gravity="left|center" android:id="@id/row_profile_header_textview_biography" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textStyle="bold" android:textColor="@color/link_color" android:layout_gravity="left|center" android:id="@id/row_profile_header_textview_website" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_button_group_view_switcher" />
+</LinearLayout>

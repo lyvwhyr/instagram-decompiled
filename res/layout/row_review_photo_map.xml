@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/alt_list_bg_color" android:padding="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/row_review_photo_map_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_select_the_photos" android:lineSpacingMultiplier="1.2" style="@style/MapsReviewHeaderText" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar_metadata" />
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:id="@id/username" android:background="@drawable/input_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:inputType="textEmailAddress">
+            <requestFocus />
+        </EditText>
+        <EditText android:id="@id/password" android:background="@drawable/input_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:inputType="textPassword" />
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/followLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <CheckBox android:id="@id/followInstagramBlog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/followInstagramBlog" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="@dimen/text_size_large_button" android:textStyle="bold" android:textColor="@color/white" android:id="@id/done" android:background="@drawable/button_large_green_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/done" android:shadowColor="@color/text_shadow_green_button" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="0.1" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/dark_silver" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/xauth_security_message" />
+    </LinearLayout>
+</LinearLayout>

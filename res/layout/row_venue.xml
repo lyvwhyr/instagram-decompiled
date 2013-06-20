@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/background_container" android:background="@drawable/input_fullwidth" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/row_fullwidth_multiline_height">
+        <TextView android:ellipsize="end" android:id="@id/row_venue_title" android:maxLines="1" style="@style/row_title" />
+        <TextView android:ellipsize="end" android:id="@id/row_venue_subtitle" android:maxLines="1" style="@style/row_subtitle" />
+    </LinearLayout>
+    <View android:background="@color/people_tagging_cell_divider" style="@style/row_divider" />
+</LinearLayout>

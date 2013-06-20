@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/alt_list_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/gridview_padding_loose" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/row_map_header_textview_location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Some location" />
+        <TextView android:textColor="@color/timestamp_color" android:id="@id/row_map_header_textview_location_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Some address" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.android.mediacache.IgImageView android:id="@id/row_map_header_imageview" android:background="#e8e8e8e8" android:layout_width="fill_parent" android:layout_height="@dimen/map_height" android:scaleType="centerCrop" />
+        <FrameLayout android:background="@drawable/shape_top_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include layout="@layout/layout_button_group_view_switcher" />
+</LinearLayout>

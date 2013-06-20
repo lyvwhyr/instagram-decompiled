@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row_suggested_user_row" android:paddingTop="5.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.android.mediacache.IgImageView android:id="@id/row_suggested_user_imageview" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginTop="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:placeholder="@color/gray" />
+        <LinearLayout android:gravity="left|center" android:layout_gravity="left|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentTop="true">
+            <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/dark_gray" android:gravity="left|center" android:id="@id/row_suggested_user_username" android:paddingLeft="45.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="some name" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/timestamp_color" android:id="@id/row_suggested_user_fullname" android:paddingLeft="45.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="some fullname" />
+        </LinearLayout>
+        <com.instagram.android.widget.FollowButton android:id="@id/row_suggested_user_follow_button" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentRight="true" style="@style/IgFollowButtonStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gridview_padding_loose" android:layout_marginTop="@dimen/gridview_padding_loose" android:adjustViewBounds="false" android:layout_weight="1.0">
+            <com.instagram.android.widget.ConstrainedImageView android:id="@id/row_suggest_user_imageview_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/gray" android:adjustViewBounds="false" app:placeholder="@color/gray" />
+            <FrameLayout android:background="@drawable/shape_tile_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gridview_padding_loose" android:layout_marginTop="@dimen/gridview_padding_loose" android:adjustViewBounds="false" android:layout_weight="1.0">
+            <com.instagram.android.widget.ConstrainedImageView android:id="@id/row_suggest_user_imageview_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/gray" android:adjustViewBounds="false" app:placeholder="@color/gray" />
+            <FrameLayout android:background="@drawable/shape_tile_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gridview_padding_loose" android:layout_marginTop="@dimen/gridview_padding_loose" android:adjustViewBounds="false" android:layout_weight="1.0">
+            <com.instagram.android.widget.ConstrainedImageView android:id="@id/row_suggest_user_imageview_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/gray" android:adjustViewBounds="false" app:placeholder="@color/gray" />
+            <FrameLayout android:background="@drawable/shape_tile_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gridview_padding_loose" android:layout_marginTop="@dimen/gridview_padding_loose" android:layout_marginRight="@dimen/gridview_padding_loose" android:adjustViewBounds="false" android:layout_weight="1.0">
+            <com.instagram.android.widget.ConstrainedImageView android:id="@id/row_suggest_user_imageview_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/gray" android:adjustViewBounds="false" app:placeholder="@color/gray" />
+            <FrameLayout android:background="@drawable/shape_tile_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/dark_silver" android:ellipsize="end" android:id="@id/row_suggested_user_description" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="2" />
+    <FrameLayout android:background="@color/row_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+</LinearLayout>

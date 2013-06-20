@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.android.widget.SimpleProxyView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tab_bar_button_camera_left" />
+    <ImageView android:background="@drawable/tab_bar_button_camera_bg_tile_horizontal" android:duplicateParentState="true" android:layout_width="0.0px" android:layout_height="wrap_content" android:src="@drawable/tab_bar_glyph_camera" android:scaleType="center" android:layout_weight="1.0" />
+    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tab_bar_button_camera_right" />
+</com.instagram.android.widget.SimpleProxyView>

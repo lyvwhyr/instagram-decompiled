@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <com.instagram.android.widget.FreightSanBoldSCTextView android:textSize="@dimen/action_bar_title" android:textColor="@color/action_bar_title_text" android:id="@id/action_bar_textview_title" android:paddingLeft="@dimen/action_bar_title_left_padding" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title" android:shadowColor="@color/action_bar_title_shadow" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="0.1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.instagram.android.widget.FreightSanBoldSCButton android:textSize="@dimen/action_bar_title" android:textColor="@color/action_bar_title_textview_upload" android:gravity="center" android:layout_gravity="center" android:id="@id/action_bar_suggested_users_signup_flow_button_done" android:background="@drawable/button_action_bar_right_green_button_bg" android:paddingLeft="@dimen/action_bar_title_left_padding" android:paddingRight="@dimen/action_bar_title_right_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/done" android:shadowColor="@color/action_bar_title_textview_shadow_upload" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="0.1" />
+    </LinearLayout>
+</FrameLayout>

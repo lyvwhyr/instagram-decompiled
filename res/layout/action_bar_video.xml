@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:id="@id/action_bar_camera_controls" android:background="@drawable/action_bar_dark_bg" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="left|center" android:id="@id/action_bar_button_back" android:background="@drawable/action_bar_dark_left_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_bar_glyph_back" />
+    <com.instagram.android.widget.FreightSanBoldSCTextView android:layout_gravity="center" android:id="@id/action_bar_textview_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/IgActionBarTitleText.Dark" />
+    <ImageView android:id="@id/action_bar_button_next" android:background="@drawable/video_accept_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_bar_glyph_next" android:scaleType="matrix" />
+</LinearLayout>

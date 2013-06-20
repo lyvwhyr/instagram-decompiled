@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">for %s sekunder siden</item>
+        <item quantity="one">for %s sekund siden</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">for %s minutter siden</item>
+        <item quantity="one">for %s minut siden</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">for %s timer siden</item>
+        <item quantity="one">for %s time siden</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">for %s dage siden</item>
+        <item quantity="one">for %s dag siden</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">for %s uger siden</item>
+        <item quantity="one">for %s uge siden</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s opslag</item>
+        <item quantity="one">%s opslag</item>
+    </plurals>
+</resources>

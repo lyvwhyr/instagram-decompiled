@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s detik yang lalu</item>
+        <item quantity="one">%s detik yang lalu</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s menit yang lalu</item>
+        <item quantity="one">%s menit yang lalu</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s jam yang lalu</item>
+        <item quantity="one">%s jam yang lalu</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s hari yang lalu</item>
+        <item quantity="one">%s hari yang lalu</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s minggu yang lalu</item>
+        <item quantity="one">%s minggu yang lalu</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s kiriman</item>
+        <item quantity="one">%s kiriman</item>
+    </plurals>
+</resources>

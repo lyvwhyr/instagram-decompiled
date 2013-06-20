@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s segundo ang nakalipas</item>
+        <item quantity="one">%s segundo ang nakalipas</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minuto ang nakalipas</item>
+        <item quantity="one">%s minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s (na) oras ang nakalipas</item>
+        <item quantity="one">%s oras ang nakalipas</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s (na) araw ang nakalipas</item>
+        <item quantity="one">%s araw ang nakalipas</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s (na) linggo ang nakalipas</item>
+        <item quantity="one">%s linggo ang nakalipas</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s (na) post</item>
+        <item quantity="one">%s (na) post</item>
+    </plurals>
+</resources>

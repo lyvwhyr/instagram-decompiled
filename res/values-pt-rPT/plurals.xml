@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">há %s segundos</item>
+        <item quantity="one">há %s segundo</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">há %s minutos</item>
+        <item quantity="one">há %s minuto</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">há %s horas</item>
+        <item quantity="one">há %s hora</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">há %s dias</item>
+        <item quantity="one">há %s dia</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">há %s semanas</item>
+        <item quantity="one">há %s semana</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s publicações</item>
+        <item quantity="one">%s publicações</item>
+    </plurals>
+</resources>

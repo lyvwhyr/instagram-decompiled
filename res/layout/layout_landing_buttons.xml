@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="16.0sp" android:gravity="left|center" android:id="@id/toolbar_button_sign_up" android:background="@drawable/input_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/register" android:drawableLeft="@drawable/accounts_glyph_register" android:drawableRight="@drawable/list_tappable" android:drawablePadding="5.0dip" />
+    <Button android:textSize="16.0sp" android:gravity="left|center" android:id="@id/toolbar_button_login" android:background="@drawable/input_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sign_in" android:drawableLeft="@drawable/accounts_glyph_username_default" android:drawableRight="@drawable/list_tappable" android:drawablePadding="5.0dip" />
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parentPanel" android:background="@drawable/dialog_background" android:paddingLeft="25.0dip" android:paddingTop="25.0dip" android:paddingRight="25.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/alertTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" style="@style/dialogText" />
+    <ScrollView android:id="@id/scrollView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:overScrollMode="ifContentScrolls">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:autoLink="web" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:maxLines="50" style="@style/dialogText" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/customViewHolder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_listview" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:measureWithLargestChild="true">
+        <Button android:layout_gravity="left" android:id="@id/button1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" style="@style/buttonBarButtonStyle" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/button3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="2" android:layout_weight="1.0" style="@style/buttonBarButtonStyle" />
+        <Button android:layout_gravity="right" android:id="@id/button2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="2" android:layout_weight="1.0" style="@style/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

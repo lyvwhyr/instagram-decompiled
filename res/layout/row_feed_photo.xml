@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/row_feed_photo_padding" android:paddingRight="@dimen/row_feed_photo_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_feed_media_profile_header" />
+    <include layout="@layout/row_feed_media_media_group" />
+    <include layout="@layout/row_feed_media_feedback" />
+</LinearLayout>

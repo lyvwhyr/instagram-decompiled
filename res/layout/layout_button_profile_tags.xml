@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/layout_button_group_view_switcher_button_tagged" android:background="@drawable/viewmode_photosof" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/button_profile_tags_textview" android:background="@drawable/viewmode_photosof_bubble_orange" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="12.0dip" android:singleLine="true" android:lineSpacingExtra="0.0px" android:lineSpacingMultiplier="1.0" />
+    <View android:layout_gravity="top" android:id="@id/button_profile_tags_overlay" android:background="#99eeeeee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/profile_button_top_offset" android:layout_marginBottom="@dimen/profile_button_bottom_offset" />
+</merge>

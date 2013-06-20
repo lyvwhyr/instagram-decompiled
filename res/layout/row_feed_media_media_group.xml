@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.android.widget.SquareFrameLayout android:id="@id/media_group" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.widget.ConstrainedProgressImageView android:id="@id/row_feed_photo_imageview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@color/gray" />
+    <Button android:layout_gravity="bottom|left|center" android:id="@id/row_feed_photo_tags_indicator" android:background="@drawable/people_indicator_default" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.instagram.android.people.widget.PeopleTagsLayout android:id="@id/row_feed_photo_people_tagging" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.android.video.ui.MediaActionsView android:id="@id/row_feed_video_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.instagram.android.widget.SquareFrameLayout>

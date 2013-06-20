@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:id="@id/action_bar_camera_controls" android:background="@drawable/action_bar_dark_bg" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/action_bar_camera_controls_cancel_button" android:background="@drawable/action_bar_dark_left_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_bar_glyph_cancel" />
+    <RelativeLayout android:orientation="horizontal" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.android.creation.widget.ActionBarHighlightButton android:id="@id/action_bar_camera_controls_switch_camera_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:button="@drawable/action_bar_glyph_switch_camera" />
+        <com.instagram.android.creation.widget.ActionBarCameraFlashButton android:id="@id/action_bar_camera_controls_flash_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/action_bar_camera_controls_switch_camera_button" app:button="@drawable/action_bar_glyph_flash_off" />
+        <com.instagram.android.creation.widget.ActionBarHighlightButton android:id="@id/action_bar_camera_controls_grid_lines_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/action_bar_camera_controls_flash_button" app:button="@drawable/action_bar_glyph_grid_on" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">πριν από %s δευτερόλεπτα</item>
+        <item quantity="one">πριν από %s δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">πριν από %s λεπτά</item>
+        <item quantity="one">πριν από %s λεπτό</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">πριν από %s ώρες</item>
+        <item quantity="one">πριν από %s ώρα</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">πριν από %s ημέρες</item>
+        <item quantity="one">πριν από %s ημέρα</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">πριν από %s εβδομάδες</item>
+        <item quantity="one">πριν από %s εβδομάδα</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s δημοσιεύσεις</item>
+        <item quantity="one">%s δημοσιεύσεις</item>
+    </plurals>
+</resources>

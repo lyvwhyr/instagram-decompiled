@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.android.fragment.ViewSwitcherButton android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/layout_button_group_news_view_switcher_button_following" android:background="@drawable/button_news_view_switcher_bg" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/news_view_action_bar_following_button" android:layout_weight="1.0" />
+        <com.instagram.android.fragment.ViewSwitcherButton android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/layout_button_group_news_view_switcher_button_you" android:background="@drawable/button_news_view_switcher_bg" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/news_view_action_bar_you_button" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:layout_gravity="center_horizontal" android:background="#ffcccccc" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginBottom="8.0dip" />
+</FrameLayout>

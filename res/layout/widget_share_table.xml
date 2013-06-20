@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/share_table_row_1" android:background="@drawable/input_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.instagram.android.creation.widget.UploadCompoundButton android:id="@id/metadata_row_facebook" android:button="@drawable/upload_glyph_facebook" android:text="@string/facebook" style="@style/UploadShareButton" />
+            <com.instagram.android.creation.widget.UploadCompoundButton android:id="@id/metadata_row_twitter" android:layout_marginLeft="15.0dip" android:button="@drawable/upload_glyph_twitter" android:text="@string/twitter" style="@style/UploadShareButton" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/share_table_row_2" android:background="@drawable/input_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.instagram.android.creation.widget.UploadCompoundButton android:id="@id/metadata_row_tumblr" android:paddingLeft="@dimen/upload_glyph_margin" android:button="@drawable/upload_glyph_tumblr" android:text="@string/tumblr" style="@style/UploadShareButton" />
+            <com.instagram.android.creation.widget.AlphaUploadCompoundButton android:id="@id/metadata_row_foursquare" android:layout_marginLeft="15.0dip" android:button="@drawable/upload_glyph_foursquare" android:text="@string/foursquare" style="@style/UploadShareButton" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/share_table_row_3" android:background="@drawable/input_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.instagram.android.creation.widget.UploadCompoundButton android:id="@id/metadata_row_flickr" android:button="@drawable/upload_glyph_flickr" android:text="@string/flickr" style="@style/UploadShareButton" />
+            <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center_horizontal" android:id="@id/share_table_divider" android:background="@color/row_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" />
+</merge>

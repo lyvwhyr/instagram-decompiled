@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/camera_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar_video" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="-90.0dip">
+            <com.instagram.android.video.widget.ScrubberPreviewTextureView android:id="@id/scrubber_preview_texture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <com.instagram.android.video.widget.IgScrubberProgressIndicator android:id="@id/scrubber_progressbar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <FrameLayout android:orientation="vertical" android:background="@drawable/cover_bg_tile" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_alignParentBottom="true" />
+        <SeekBar android:id="@id/scrubber_seekbar" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:progressDrawable="@drawable/cover_track" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/video_choose_cover_frame" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-30.0dip" android:text="@string/video_choose_cover_frame" android:shadowColor="@color/action_bar_title_shadow" android:shadowDy="-2.0" android:shadowRadius="0.1" android:layout_below="@id/scrubber_seekbar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

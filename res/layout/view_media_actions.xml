@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_states" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/buffer_retry" />
+        <ImageView android:layout_gravity="top|right|center" android:id="@id/camouter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_feed_camouter" />
+        <ImageView android:layout_gravity="top|right|center" android:id="@id/caminner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_feed_caminner" />
+        <ImageView android:layout_gravity="top|right|center" android:id="@id/play_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_feed_play" />
+        <ImageView android:layout_gravity="top|right|center" android:id="@id/pause_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_feed_pause" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/doubletap_heart" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/like_heart" />
+</merge>

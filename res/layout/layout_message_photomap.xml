@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/maps_bug_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.instagram.android.widget.ConstrainedImageView android:layout_gravity="center" android:id="@id/message_photomap_thumb" android:layout_width="44.0dip" android:layout_height="44.0dip" app:placeholder="@color/gray" app:decorate="true" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_photo_overlay_3" />
+        <TextView android:textSize="@dimen/maps_font_size" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="top|right|center" android:id="@id/message_photomap_count" android:background="@drawable/map_counter_bubble_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip">
+        <TextView android:textStyle="bold" android:textColor="#ff333333" android:id="@id/message_photomap_line_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="Your Photo Map is ready!" style="@style/MapsBugText" />
+        <TextView android:textColor="#ff333333" android:id="@id/message_photomap_line_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Go Review it now!" style="@style/MapsBugText" />
+    </LinearLayout>
+</LinearLayout>

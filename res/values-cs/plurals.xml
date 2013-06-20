@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">před %s sekundami</item>
+        <item quantity="one">Před %s s</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">Před %s minutami</item>
+        <item quantity="one">Před %s minutou</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">před %s hodinami</item>
+        <item quantity="one">Před %s hodinou</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">Před %s dny</item>
+        <item quantity="one">Před %s dnem</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">Před %s týdny</item>
+        <item quantity="one">Před %s týdnem</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">Příspěvky (%s)</item>
+        <item quantity="one">Příspěvky (%s)</item>
+    </plurals>
+</resources>

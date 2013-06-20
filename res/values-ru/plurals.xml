@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s секунд назад</item>
+        <item quantity="one">%s секунд назад</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s минут назад</item>
+        <item quantity="one">%s минут назад</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s часов назад</item>
+        <item quantity="one">%s часов назад</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s дней назад</item>
+        <item quantity="one">%s дней назад</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s недель назад</item>
+        <item quantity="one">%s недель назад</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">Публикации: %s</item>
+        <item quantity="one">Публикации: %s</item>
+    </plurals>
+</resources>

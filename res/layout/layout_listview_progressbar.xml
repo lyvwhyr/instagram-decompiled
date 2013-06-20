@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.widget.InterceptTouchFrameLayout android:id="@id/listview_progressbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.android.widget.IgLoadingSpinner android:layout_gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.instagram.android.widget.InterceptTouchFrameLayout>
+</merge>

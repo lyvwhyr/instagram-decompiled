@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:paddingLeft="@dimen/form_padding" android:paddingRight="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_edit_sharing_settings_facebook" android:background="@drawable/input_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/row_edit_sharing_settings_checkbox" android:background="@drawable/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/row_title" android:id="@id/row_edit_sharing_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/facebook" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/row_subtitle" android:id="@id/row_edit_sharing_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/row_simple_text_disclosure" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_tappable" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_edit_sharing_settings_twitter" android:background="@drawable/input_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/row_edit_sharing_settings_checkbox" android:background="@drawable/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/row_title" android:id="@id/row_edit_sharing_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/twitter" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/row_subtitle" android:id="@id/row_edit_sharing_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_edit_sharing_settings_foursquare" android:background="@drawable/input_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/row_edit_sharing_settings_checkbox" android:background="@drawable/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/row_title" android:id="@id/row_edit_sharing_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/foursquare" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/row_subtitle" android:id="@id/row_edit_sharing_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_edit_sharing_settings_tumblr" android:background="@drawable/input_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/row_edit_sharing_settings_checkbox" android:background="@drawable/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/row_title" android:id="@id/row_edit_sharing_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tumblr" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/row_subtitle" android:id="@id/row_edit_sharing_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_edit_sharing_settings_flickr" android:background="@drawable/input_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/row_edit_sharing_settings_checkbox" android:background="@drawable/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/row_title" android:id="@id/row_edit_sharing_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flickr" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/row_subtitle" android:id="@id/row_edit_sharing_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

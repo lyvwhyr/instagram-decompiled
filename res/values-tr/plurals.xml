@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s saniye önce</item>
+        <item quantity="one">%s saniye önce</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s dakika önce</item>
+        <item quantity="one">%s dakika önce</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s saat önce</item>
+        <item quantity="one">%s saat önce</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s gün önce</item>
+        <item quantity="one">%s gün önce</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s hafta önce</item>
+        <item quantity="one">%s hafta önce</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s gönderi</item>
+        <item quantity="one">%s gönderi</item>
+    </plurals>
+</resources>

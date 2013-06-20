@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_login_container" android:padding="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/login_username_input_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip">
+                    <ImageView android:layout_gravity="center" android:background="@drawable/accounts_signin_new_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/username" android:background="@drawable/input_top" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:paddingRight="@dimen/edittext_glyph_padding_right" android:nextFocusDown="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/username" android:lines="1" android:singleLine="true" android:inputType="textEmailAddress" />
+                    <ImageView android:layout_gravity="left|center" android:id="@id/username_glyph" android:background="@drawable/accounts_glyph_username_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/login_static_username_group" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/password" android:background="@drawable/input_bottom" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:paddingRight="@dimen/edittext_glyph_padding_right" android:nextFocusUp="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:lines="1" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionDone" />
+                <ImageView android:layout_gravity="left|center" android:id="@id/password_glyph" android:background="@drawable/accounts_glyph_password_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+            </FrameLayout>
+            <Button android:id="@id/login_fragment_login_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/sign_in" style="@style/IgGreenButtonStyleLarge" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/link_color" android:layout_gravity="center_horizontal" android:id="@id/forgot_password_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/forgot_password" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/link_color" android:layout_gravity="center_horizontal" android:id="@id/forget_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/forget_account" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

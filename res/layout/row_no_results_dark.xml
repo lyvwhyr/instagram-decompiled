@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="61.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_search_highlight" />
+    <TextView android:textColor="@color/row_dark_subtitle" android:gravity="center" android:id="@id/row_no_results_textview" android:layout_width="fill_parent" android:layout_height="60.0dip" style="@style/TextViewStyle" />
+    <include layout="@layout/row_search_divider" />
+</LinearLayout>

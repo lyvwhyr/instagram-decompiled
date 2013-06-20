@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s sekondes gelede</item>
+        <item quantity="one">%s sekonde gelede</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minute gelede</item>
+        <item quantity="one">%s minuut gelede</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s ure gelede</item>
+        <item quantity="one">%s uur gelede</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s dae gelede</item>
+        <item quantity="one">%s dag gelede</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s weke gelede</item>
+        <item quantity="one">%s week gelede</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s plasings</item>
+        <item quantity="one">%s plasings</item>
+    </plurals>
+</resources>

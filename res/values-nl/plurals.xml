@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s seconden geleden</item>
+        <item quantity="one">%s seconde geleden</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minuten geleden</item>
+        <item quantity="one">%s minuut geleden</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s uur geleden</item>
+        <item quantity="one">%s uur geleden</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s dagen geleden</item>
+        <item quantity="one">%s dag geleden</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s weken geleden</item>
+        <item quantity="one">%s week geleden</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s berichten</item>
+        <item quantity="one">%s berichten</item>
+    </plurals>
+</resources>

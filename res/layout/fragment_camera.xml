@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/camera_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/action_bar_camera_controls" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.instagram.camera.SquarePreviewFrameLayout android:layout_gravity="center" android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.instagram.android.creation.widget.GridLinesView android:id="@id/grid_lines_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/camera_focus_indicator" />
+        <include layout="@layout/camera_tap_to_focus_toast" />
+        <View android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.instagram.camera.SquarePreviewFrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:background="@drawable/camera_shoot_buttonbar_bg" android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <ImageView android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_shoot_buttonbar_side" />
+        <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_shoot_buttonbar_side" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.instagram.android.creation.widget.ActionBarHighlightButton android:id="@id/fragment_camera_gallery_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:button="@drawable/camera_glyph_browse" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.instagram.camera.ShutterButton android:layout_gravity="center" android:id="@id/fragment_camera_shutter_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="90.0dip" android:src="@drawable/camera_shoot_buttonbar_button" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.instagram.android.creation.widget.ActionBarHighlightButton android:gravity="center" android:id="@id/fragment_camera_video_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:button="@drawable/camera_shoot_glyph_goto_video" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

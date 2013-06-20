@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/layout_search_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.fragment.ViewSwitcherButton android:textSize="@dimen/view_switcher_button_search_textsize" android:textStyle="bold" android:textColor="@color/white" android:id="@id/layout_button_group_view_switcher_button_users" android:background="@drawable/button_button_group_view_switcher_bg" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/users" android:layout_weight="1.0" />
+    <com.instagram.android.fragment.ViewSwitcherButton android:textSize="@dimen/view_switcher_button_search_textsize" android:textStyle="bold" android:textColor="@color/white" android:id="@id/layout_button_group_view_switcher_button_tags" android:background="@drawable/button_button_group_view_switcher_bg" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/tags" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:id="@id/fragment_facebook_posting_options_radiogroup" android:padding="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/fragment_facebook_posting_options_default_button" android:background="@drawable/input_single" android:text="@string/share_photos_default" style="@style/IgRadioButton" />
+        <TextView android:ellipsize="end" android:id="@id/fragment_facebook_posting_options_choose_page" android:visibility="invisible" android:text="@string/choose_a_page" android:singleLine="false" style="@style/IgOptionsTextView" />
+        <include layout="@layout/layout_listview_progressbar" />
+    </RadioGroup>
+</ScrollView>

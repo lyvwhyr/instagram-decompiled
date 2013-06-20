@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s 秒前</item>
+        <item quantity="one">%s 秒鐘前</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s 分鐘前</item>
+        <item quantity="one">%s 分鐘前</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s 小時前</item>
+        <item quantity="one">%s 小時前</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s 天前</item>
+        <item quantity="one">%s 天前</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s 週前</item>
+        <item quantity="one">%s 週前</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s 則貼文</item>
+        <item quantity="one">%s 則貼文</item>
+    </plurals>
+</resources>

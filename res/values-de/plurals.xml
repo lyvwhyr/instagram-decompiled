@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">vor %s Sekunden</item>
+        <item quantity="one">vor %s Sekunde</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">vor %s Minuten</item>
+        <item quantity="one">vor %s Minute</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">vor %s Stunden</item>
+        <item quantity="one">vor %s Stunde</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">vor %s Tagen</item>
+        <item quantity="one">vor %s Tag</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">vor %s Wochen</item>
+        <item quantity="one">vor %s Woche</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s Beiträge</item>
+        <item quantity="one">%s Beiträge</item>
+    </plurals>
+</resources>

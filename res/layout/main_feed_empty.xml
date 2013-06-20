@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/main_feed_background" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/edusheet_content_background" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/find_friends_glyph" />
+            <com.instagram.android.widget.FreightSanBoldSCTextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_friends_on_instagram" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/find_friends_subheader" />
+        </LinearLayout>
+        <Button android:id="@id/button_find_friends" android:background="@drawable/edusheet_content_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_facebook_friends" style="@style/IgGreenButtonStyleLarge" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="-10.0dip" android:layout_marginRight="-10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/review_cluster_header" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:id="@id/row_review_map_textview_expanded_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MapsReviewHeaderText" />
+            <TextView android:id="@id/row_review_name_textview_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MapsReviewPlaceText" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="right|center" android:id="@id/row_review_name_button_deselect_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_checkmark_bubble" />
+    </LinearLayout>
+</LinearLayout>

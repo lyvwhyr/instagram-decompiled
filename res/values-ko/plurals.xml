@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s초 전</item>
+        <item quantity="one">%s초 전</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s분 전</item>
+        <item quantity="one">%s분 전</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s시간 전</item>
+        <item quantity="one">%s시간 전</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s일 전</item>
+        <item quantity="one">%s일 전</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s주 전</item>
+        <item quantity="one">%s주 전</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">게시물 %s개</item>
+        <item quantity="one">게시물 %s개</item>
+    </plurals>
+</resources>

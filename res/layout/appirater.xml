@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_background" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/appirater_title_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:text="@string/APPIRATER_MESSAGE_TITLE" android:singleLine="true" style="@style/dialogText" />
+    <TextView android:id="@id/appirater_message_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:text="@string/APPIRATER_MESSAGE" style="@style/dialogText" />
+    <Button android:id="@id/appirater_rate_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/APPIRATER_RATE_BUTTON" style="@style/buttonBarButtonStyle" />
+    <Button android:id="@id/appirater_rate_later_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/APPIRATER_RATE_LATER" style="@style/buttonBarButtonStyle" />
+    <Button android:id="@id/appirater_cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APPIRATER_CANCEL_BUTTON" style="@style/buttonBarButtonStyle" />
+</LinearLayout>

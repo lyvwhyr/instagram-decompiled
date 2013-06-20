@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar_rageshake" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/rageshake_prompt" />
+            <EditText android:gravity="top" android:id="@id/bug_description" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/rageshake_hint" android:minLines="2" android:scrollHorizontally="false" android:singleLine="false" android:maxLength="1000" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" />
+            <RelativeLayout android:id="@id/screenshot_section" android:background="@drawable/screenshot_background" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <ImageView android:id="@id/screenshot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+                <ImageView android:id="@id/screenshot_remove" android:paddingLeft="50.0dip" android:paddingTop="10.0dip" android:paddingBottom="50.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/screenshot_remove" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="onRemoveClick" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ff777777" android:id="@id/bug_report_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/rageshake_disclaimer" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

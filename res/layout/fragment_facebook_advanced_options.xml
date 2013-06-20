@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:paddingLeft="@dimen/form_padding" android:paddingRight="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/alertTitle" android:layout_marginTop="0.0dip" android:text="@string/share_to_timeline" style="@style/IgOptionsTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fragment_facebook_advanced_options_row_settings_likes" android:background="@drawable/input_single" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.instagram.android.widget.IndeterminateCheckBox android:id="@id/fragment_facebook_advanced_options_row_settings_likes_checkbox" android:background="@drawable/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@null" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/row_title" android:id="@id/row_edit_sharing_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/likes" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/row_subtitle" android:id="@id/row_edit_sharing_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:id="@id/facebook_posting_options_title" android:text="@string/choose_a_page" style="@style/IgOptionsTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/facebook_posting_options_container" android:background="@drawable/input_single" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/share_photos_to" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/row_subtitle" android:ellipsize="end" android:gravity="right" android:id="@id/facebook_posting_options_shareto_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_photos_default" android:lines="1" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_tappable" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_comment_thread_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_listview" />
+    <FrameLayout android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_comment_thread_anchor" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.android.widget.CommentAutoCompleteTextView android:id="@id/layout_comment_thread_edittext" android:background="@drawable/input_standalone_default" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:lines="1" android:layout_weight="1.0" android:inputType="textCapSentences|textAutoCorrect" android:imeOptions="actionSend" />
+        <Button android:id="@id/layout_comment_thread_button_send" android:background="@drawable/button_large_gray_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/send" />
+    </LinearLayout>
+</LinearLayout>

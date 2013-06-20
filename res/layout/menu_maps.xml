@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top|right|center" android:orientation="vertical" android:background="@drawable/menu_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/menu_maps_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_photos_on_map" style="@style/IgMenuButtonStyle" />
+    <Button android:id="@id/menu_maps_review" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Review" style="@style/IgMenuButtonStyle" />
+</LinearLayout>

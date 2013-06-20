@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <bitmap android:src="@drawable/tab_bar_camera_button_bg_tile_horizontal_enabled_pressed" android:tileMode="repeat"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/tab_bar_camera_button_bg_tile_horizontal_enabled" android:tileMode="repeat"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </item>
+</selector>

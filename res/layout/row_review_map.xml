@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="-10.0dip" android:layout_marginRight="-10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/review_cluster_header" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/row_review_map_textview_expanded_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="You geotagged x photos near" style="@style/MapsReviewHeaderText" />
+        <FrameLayout android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.instagram.android.mediacache.IgImageView android:id="@id/row_review_map_imageview" android:layout_width="fill_parent" android:layout_height="@dimen/map_height" android:scaleType="centerCrop" app:placeholder="@color/gray" xmlns:app="http://schemas.android.com/apk/res-auto" />
+            <TextView android:textSize="@dimen/maps_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/row_review_map_textview_count" android:background="@drawable/map_counter_bubble_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:background="@drawable/review_map_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/row_review_map_button_deselect_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_checkmark_bubble" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

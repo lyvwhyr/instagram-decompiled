@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_feed_profile_header" android:background="#e8ffffff" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.mediacache.IgImageView android:layout_gravity="left|center" android:id="@id/row_feed_photo_profile_imageview" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_centerVertical="true" app:placeholder="@color/gray" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/row_feed_photo_profile_imageview" android:layout_centerVertical="true">
+        <TextView android:textColorLink="@color/link_color" android:id="@id/row_feed_photo_profile_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="some name" />
+        <ImageView android:id="@id/row_feed_photo_location_glyph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/stream_photo_header_glyph_location" android:layout_below="@id/row_feed_photo_profile_name" />
+        <TextView android:ellipsize="middle" android:id="@id/row_feed_photo_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="some really really really really really long location" android:singleLine="true" android:layout_toRightOf="@id/row_feed_photo_location_glyph" android:layout_below="@id/row_feed_photo_profile_name" />
+        <TextView android:textColor="@color/timestamp_color" android:id="@id/row_feed_photo_profile_timeago" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50m" android:layout_alignBottom="@id/row_feed_photo_profile_name" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/row_feed_photo_profile_timeago_glyph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.5dip" android:src="@drawable/stream_photo_timestamp" android:layout_toLeftOf="@id/row_feed_photo_profile_timeago" android:layout_alignBottom="@id/row_feed_photo_profile_name" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <Preference android:title="@string/find_friends_item_from_my_contact_list" />
+        <Preference android:title="@string/find_friends_item_facebook_friends" />
+        <Preference android:title="@string/find_friends_item_twitter_friends" />
+        <Preference android:title="@string/find_friends_item_search_names_and_usernames" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:title="@string/find_friends_item_suggested_users" />
+    </PreferenceCategory>
+</PreferenceScreen>

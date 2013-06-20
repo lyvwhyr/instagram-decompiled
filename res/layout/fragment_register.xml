@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/fragment_sign_up_profile_picture_wrap" android:background="@drawable/input_single_straight_right_default" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="85.0dip">
+                <Button android:layout_gravity="center" android:id="@id/fragment_sign_up_profile_picture_button" android:background="@drawable/button_sign_up_profile_picture_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.instagram.android.widget.FreightSanBoldSCTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff999999" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/photo" android:shadowColor="#ffe7e7e7" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="0.1" android:textAllCaps="true" />
+                <ImageView android:layout_gravity="center" android:id="@id/fragment_sign_up_profile_picture_image_view" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="73.0dip" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/username" android:background="@drawable/input_top_left_edge" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:paddingRight="@dimen/edittext_glyph_padding_right" android:nextFocusDown="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/username" android:lines="1" android:singleLine="true" android:capitalize="none" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+                    <ImageView android:layout_gravity="left|center" android:id="@id/username_glyph" android:background="@drawable/accounts_glyph_username_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+                    <com.instagram.android.widget.IgSmallLoadingSpinner android:layout_gravity="right|center" android:id="@id/fragment_sign_up_username_spinner" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/password" android:background="@drawable/input_bottom_left_edge" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:paddingRight="@dimen/edittext_glyph_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:lines="1" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionNext" />
+                    <ImageView android:layout_gravity="left|center" android:id="@id/password_glyph" android:background="@drawable/accounts_glyph_password_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.instagram.android.widget.FreightSanBoldSCTextView android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:text="@string/Profile" style="@style/LoginSubtitle" />
+        <FrameLayout android:id="@id/button_facebook_connect_wrap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+            <Button android:textSize="16.0sp" android:gravity="left|center" android:id="@id/button_facebook_connect" android:background="@drawable/input_top" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/use_your_facebook_info" />
+            <ImageView android:layout_gravity="left|center" android:background="@drawable/accounts_glyph_facebook" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/disclosure_facebook" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_tappable" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/disclosure_facebook_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/checkmark_gray" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/full_name" android:background="@drawable/input_middle" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:paddingRight="@dimen/edittext_glyph_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/name" android:singleLine="true" android:imeOptions="actionNext" />
+            <ImageView android:layout_gravity="left|center" android:id="@id/full_name_glyph" android:background="@drawable/accounts_glyph_name_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/email" android:background="@drawable/input_middle" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:paddingRight="@dimen/edittext_glyph_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email" android:lines="1" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            <ImageView android:layout_gravity="left|center" android:id="@id/email_glyph" android:background="@drawable/accounts_glyph_email_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/phone" android:background="@drawable/input_bottom" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:paddingRight="@dimen/edittext_glyph_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/phone" android:singleLine="true" android:inputType="phone" android:imeOptions="actionDone" />
+            <ImageView android:layout_gravity="left|center" android:id="@id/phone_glyph" android:background="@drawable/accounts_glyph_phone_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/timestamp_color" android:layout_gravity="right|center" android:id="@id/label_phone_optional" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/optional" android:capitalize="none" />
+        </FrameLayout>
+        <TextView android:textColorLink="@color/link_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/phone_number_email_private" style="@style/SignUpTextStyle" />
+        <TextView android:textColorLink="@color/link_color" android:id="@id/tos_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" style="@style/SignUpTextStyle" />
+        <Button android:id="@id/signUpButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/register" style="@style/IgGreenButtonStyleLarge" />
+    </LinearLayout>
+</ScrollView>

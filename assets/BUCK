@@ -1,0 +1,11 @@
+android_resource(
+  name = 'assets',
+  assets = '.',
+  visibility = ['PUBLIC'],
+)
+
+project_config(
+  src_target = ':assets',
+  # Explicitly set src_roots to None, or you will have a bad time.
+  src_roots = None,
+)

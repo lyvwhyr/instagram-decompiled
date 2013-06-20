@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/metadata_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="vertical" android:padding="@dimen/form_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/find_facebook_friends_promo" style="@style/SignupFormText" />
+        <FrameLayout android:id="@id/button_find_friends_wrap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="16.0sp" android:gravity="left|center" android:id="@id/button_find_friends" android:background="@drawable/input_single" android:paddingLeft="@dimen/edittext_glyph_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_facebook_friends" />
+            <ImageView android:layout_gravity="left|center" android:background="@drawable/accounts_glyph_facebook" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/edittext_glyph_inset_left" />
+        </FrameLayout>
+        <TextView android:layout_gravity="center" android:id="@id/button_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/skip" style="@style/SignupFormLink" />
+    </LinearLayout>
+</LinearLayout>

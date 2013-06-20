@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gridview_padding_tight" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.android.widget.ConstrainedImageView android:id="@id/grid_item_with_frame_iv" android:background="@drawable/map_photo_overlay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="false" app:placeholder="@color/gray" app:decorate="true" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/row_gridview_imageview_checkmark_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_checkmark_bubble" />
+</FrameLayout>

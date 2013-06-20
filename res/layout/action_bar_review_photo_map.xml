@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.widget.FreightSanBoldSCTextView android:layout_gravity="left|center" android:id="@id/action_bar_textview_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/IgActionBarTitleText" />
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="right|center" android:id="@id/action_bar_review_photo_map_done" android:background="@drawable/button_action_bar_right_green_button_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/done" android:shadowColor="#7f000000" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="0.1" />
+</LinearLayout>

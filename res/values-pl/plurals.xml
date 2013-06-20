@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s sekund temu</item>
+        <item quantity="one">%s s temu</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minut temu</item>
+        <item quantity="one">%s min temu</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s godzin temu</item>
+        <item quantity="one">%s godz. temu</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s dni temu</item>
+        <item quantity="one">%s dzień temu</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s tyg. temu</item>
+        <item quantity="one">%s tydz. temu</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">Posty: %s</item>
+        <item quantity="one">Posty: %s</item>
+    </plurals>
+</resources>

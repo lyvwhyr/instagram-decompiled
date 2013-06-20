@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layout_maps_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/layout_maps_button_back" android:background="@drawable/map_button_back" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@id/layout_maps_button_edit_cancel" android:background="@drawable/map_button_label_left" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/IgMapsButtonStyleNormal" />
+    <ImageView android:layout_gravity="top|right|center" android:id="@id/layout_maps_button_edit" android:background="@drawable/map_button_edit" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:layout_gravity="top|right|center" android:id="@id/layout_maps_button_edit_done" android:background="@drawable/map_button_label_right" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" style="@style/IgMapsButtonStyleDone" />
+    <Button android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/layout_maps_button_retry" android:background="@drawable/map_grid_more" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_to_retry" style="@style/IgMapsButtonStyleMore" />
+    <LinearLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/layout_maps_button_grid" android:background="@drawable/map_button_grid" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/layout_maps_button_zoom" android:background="@drawable/map_button_zoom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/layout_listview_progressbar" />
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s secondi fa</item>
+        <item quantity="one">%s secondo fa</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minuti fa</item>
+        <item quantity="one">%s minuto fa</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s ore fa</item>
+        <item quantity="one">%s ora fa</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s giorni fa</item>
+        <item quantity="one">%s giorno fa</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s settimane fa</item>
+        <item quantity="one">%s settimana fa</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s post</item>
+        <item quantity="one">%s post</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">för %s sekunder sedan</item>
+        <item quantity="one">För %s sekund sedan</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">för %s minuter sedan</item>
+        <item quantity="one">För %s en minut sedan</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">för %s timmar sedan</item>
+        <item quantity="one">För %s timme sedan</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">för %s dagar sedan</item>
+        <item quantity="one">För %s dag sedan</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">För %s veckor sedan</item>
+        <item quantity="one">För %s vecka sedan</item>
+    </plurals>
+    <plurals name="number_of_posts_hashtag_header">
+        <item quantity="other">%s inlägg</item>
+        <item quantity="one">%s inlägg</item>
+    </plurals>
+</resources>
